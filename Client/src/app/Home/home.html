@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url("/Home/pool.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .button-group {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        a {
+            padding: 12px 30px;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .btn-personal {
+            background: #667eea;
+            color: white;
+        }
+        .btn-personal:hover {
+            background: #5568d3;
+        }
+        .btn-ppcalc {
+            background: #764ba2;
+            color: white;
+        }
+        .btn-ppcalc:hover {
+            background: #63397a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tyrminator.exe</h1>
+        <div class="button-group">
+            <a href="../personal/personal.html" class="btn-personal">Personal</a>
+            <a href="../ppcalc/ppcalc.html" class="btn-ppcalc">PP Calc</a>
+        </div>
+    </div>
+</body>
+</html>
